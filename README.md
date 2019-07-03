@@ -24,5 +24,6 @@ http://www.riturajcse.com/2017/12/using-ansible-for-deploying.html
 
 5. Powershell (WinRM setup):
 https://gist.github.com/mkubenka/33b542cbd82614fe7f8b#file-vagrantfile-L1
+(Only user_data.txt file required)
 
 6. Setup Ansible.
