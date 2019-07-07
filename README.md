@@ -5,9 +5,13 @@
 2. Install Plugins (Ruby will be required):
 
 Vagrant-aws 
+
 vagrant plugin install –plugin-version 1.0.1 fog-ovirt
+
 vagrant-share
+
 vagrant-winrm-syncedfolders
+
 
 E.g. vagrant plugin install vagrant-share
 
