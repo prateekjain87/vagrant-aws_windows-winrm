@@ -4,7 +4,7 @@
 
 2. Install Plugins (Ruby will be required):
 
-Vagrant-aws 
+vagrant-aws 
 
 vagrant plugin install –plugin-version 1.0.1 fog-ovirt
 
