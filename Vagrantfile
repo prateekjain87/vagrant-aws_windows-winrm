@@ -1,8 +1,8 @@
 Vagrant.configure(2) do |config|
  config.vm.box = "dummy"
  config.vm.provider :aws do |aws, override|
-   aws.access_key_id = "AKIAJPLJSOKOCOYWDIYA"
-   aws.secret_access_key = "hDayyHmbvUEt3U4CAeBrNjNKObSynSb7+Vh2rNqH"
+   aws.access_key_id = ""
+   aws.secret_access_key = ""
    aws.keypair_name = "prateek"
    aws.ami = "ami-08ffedbc0cfe344ac"
    aws.region = "ap-south-1"
