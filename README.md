@@ -32,6 +32,10 @@ https://gist.github.com/mkubenka/33b542cbd82614fe7f8b#file-vagrantfile-L1
 
 6. Setup Ansible: Preferably using pip.
 
+7. Winrm password and username can be changed by editing user_data.txt lines:
+	$user = [adsi]"WinNT://$ComputerName/Administrator,user"
+	$user.setpassword("VagrantRocksInAWSec2")
+
 7. Finally run: vagrant up
 
 
