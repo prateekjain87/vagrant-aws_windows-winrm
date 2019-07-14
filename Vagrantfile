@@ -8,9 +8,9 @@ Vagrant.configure(2) do |config|
    aws.region = ""
    aws.instance_type = "t2.micro"
    aws.security_groups = ['default']
-  
+
    aws.user_data = File.read("user_data.txt")
-   
+
    override.nfs.functional = false
    override.winrm.username = "Administrator"
    override.winrm.password = "VagrantRocksInAWSec2"
@@ -20,4 +20,3 @@ Vagrant.configure(2) do |config|
    ansible.playbook = "playbook.yml"
  end
 end
-
