@@ -6,8 +6,6 @@
 
 vagrant-aws 
 
-vagrant plugin install –plugin-version 1.0.1 fog-ovirt
-
 vagrant-share
 
 vagrant-winrm-syncedfolders
@@ -15,6 +13,9 @@ vagrant-winrm-syncedfolders
 
 E.g. vagrant plugin install vagrant-share
 
+Also:
+
+vagrant plugin install –plugin-version 1.0.1 fog-ovirt 
 
 
 3. Add dummy box
@@ -44,7 +45,7 @@ https://gist.github.com/mkubenka/33b542cbd82614fe7f8b#file-vagrantfile-L1
 
 Common Errors:
 
-1. While installing aws-plugin, ruby related issues might come. Look if ruby is installed or 
+1. While installing aws-plugin, ruby related issues might come. Look if ruby is installed or not.
 
 2. One issue might be time syncing: Even though credentials would be correct, authentication error can come. Try syncing time using NTP.
 
