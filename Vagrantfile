@@ -6,10 +6,10 @@ Vagrant.configure(2) do |config|
    aws.keypair_name = ""
    aws.ami = ""
    aws.region = ""
-   aws.instance_type = "t2.micro"
-   aws.security_groups = ['default']
+   aws.instance_type = ""
+   aws.security_groups = ['']
 
-   aws.user_data = File.read("user_data.txt")
+   aws.user_data = File.read("usertext.txt")
 
    override.nfs.functional = false
    override.winrm.username = "Administrator"
